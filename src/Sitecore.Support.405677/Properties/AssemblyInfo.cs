@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Sitecore.Support.405677.StructureMap")]
-[assembly: AssemblyDescription("Sitecore Support patch 405677 for StructureMap")]
+[assembly: AssemblyTitle("Sitecore.Support.405677.Unity")]
+[assembly: AssemblyDescription("Sitecore Support patch 405677 for Unity")]
 [assembly: AssemblyCompany("Sitecore Corporation")]
-[assembly: AssemblyProduct("Sitecore.Support.405677.StructureMap")]
+[assembly: AssemblyProduct("Sitecore.Support.405677.Unity")]
 [assembly: AssemblyCopyright("Copyright ©  2016 Sitecore Corporation")]
 [assembly: AssemblyTrademark("Sitecore® is a registered trademark of Sitecore Corporation")]
 [assembly: AssemblyCulture("")]
