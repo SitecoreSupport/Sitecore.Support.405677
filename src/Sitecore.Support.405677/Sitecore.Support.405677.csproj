@@ -30,37 +30,32 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>packages\SC.Microsoft.Practices.ServiceLocation.1.0.0.160122\lib\Microsoft.Practices.ServiceLocation.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\lib\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\SC.Sitecore.ContentSearch.7.2.0.160123\lib\Sitecore.ContentSearch.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\SC.Sitecore.ContentSearch.7.2.6.160123\lib\Sitecore.ContentSearch.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch.SolrProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\SC.Sitecore.ContentSearch.SolrProvider.1.0.0.160122\lib\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Sitecore.ContentSearch.SolrProvider">
+      <HintPath>..\..\lib\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch.SolrProvider.StructureMapIntegration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\SC.Sitecore.ContentSearch.SolrProvider.StructureMapIntegration.1.0.0.160122\lib\Sitecore.ContentSearch.SolrProvider.StructureMapIntegration.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Sitecore.ContentSearch.SolrProvider.StructureMapIntegration">
+      <HintPath>..\..\lib\Sitecore.ContentSearch.SolrProvider.StructureMapIntegration.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\SC.Sitecore.Kernel.7.2.0.160123\lib\Sitecore.Kernel.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\SC.Sitecore.Kernel.7.2.6.160123\lib\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="SolrNet, Version=0.4.0.2002, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\SC.SolrNet.1.0.0.160122\lib\SolrNet.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="SolrNet">
+      <HintPath>..\..\lib\SolrNet.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap, Version=2.6.2.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
       <HintPath>packages\structuremap.2.6.2\lib\StructureMap.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="StructureMap.SolrNetIntegration, Version=0.4.0.2002, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\SC.StructureMap.SolrNetIntegration.1.0.0.160122\lib\StructureMap.SolrNetIntegration.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="StructureMap.SolrNetIntegration">
+      <HintPath>..\..\lib\StructureMap.SolrNetIntegration.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -78,6 +73,7 @@
   <ItemGroup>
     <None Include="App_Config\Include\Sitecore.Support.405677\Sitecore.Support.405677.config" />
     <None Include="App_Config\Include\Sitecore.Support.405677\Sitecore.Support.405677.StructureMapInitializer.config" />
+    <None Include="nuget.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
