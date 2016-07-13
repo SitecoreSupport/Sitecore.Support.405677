@@ -76,7 +76,6 @@
   <ItemGroup>
     <None Include="App_Config\Include\Sitecore.Support.405677\Sitecore.Support.405677.config" />
     <None Include="App_Config\Include\Sitecore.Support.405677\Sitecore.Support.405677.StructureMapInitializer.config" />
-    <None Include="nuget.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
