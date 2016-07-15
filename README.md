@@ -6,6 +6,10 @@ This repo contains patch 405677 that allows Solr connection to be set thru a con
 The patch comes in 3 flavors tailored to 3 different IOC containers. 
 Use appropriate release/branch for the IOC container you use with your Solr integration.  
 
+## Building the project
+The project uses SIM (currently QA version 1.4.0.422) generated nuget packages to reference Sitecore specific assemblies. 
+Inspect `packages.config` file to understand how SIM configures local nuget repo.  
+
 ## Deployment  
 > This patch should be applied on each Sitecore instance that works with Solr indexes.  
 
