@@ -1,6 +1,8 @@
 # Sitecore.Support.405677  
 Patch allows to configure SolrConnection timeout and moves container initialization into Sitecore pipeline.  
 
+[![Total downloads](https://img.shields.io/github/downloads/SitecoreSupport/Sitecore.Support.405677/total.svg)](https://github.com/SitecoreSupport/Sitecore.Support.405677/releases)
+
 ## Main  
 This repo contains patch 405677 that allows Solr connection to be set thru a configuration setting. 
 The patch comes in 3 flavors tailored to 3 different IOC containers. 
