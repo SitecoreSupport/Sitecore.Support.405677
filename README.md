@@ -3,6 +3,8 @@ Patch allows to configure SolrConnection timeout and moves container initializat
 
 [![Total downloads](https://img.shields.io/github/downloads/SitecoreSupport/Sitecore.Support.405677/total.svg)](https://github.com/SitecoreSupport/Sitecore.Support.405677/releases)
 
+[![Fixed](https://img.shields.io/badge/fixed-8.2_initial_release-blue.svg)](https://dev.sitecore.net/Downloads/Sitecore%20Experience%20Platform/82/Sitecore%20Experience%20Platform%2082%20Initial%20Release/Release%20Notes)
+
 ## Main  
 This repo contains patch 405677 that allows Solr connection to be set thru a configuration setting. 
 The patch comes in 3 flavors tailored to 3 different IOC containers. 
