@@ -1,8 +1,6 @@
 # Sitecore.Support.405677  
 Patch allows to configure SolrConnection timeout and moves container initialization into Sitecore pipeline.  
 
-[![Total downloads](https://img.shields.io/github/downloads/SitecoreSupport/Sitecore.Support.405677/total.svg)](https://github.com/SitecoreSupport/Sitecore.Support.405677/releases)
-
 [![Fixed](https://img.shields.io/badge/fixed-8.2_initial_release-blue.svg)](https://dev.sitecore.net/Downloads/Sitecore%20Experience%20Platform/82/Sitecore%20Experience%20Platform%2082%20Initial%20Release/Release%20Notes)
 
 ## Main  
@@ -44,3 +42,5 @@ This patch is licensed under the [Sitecore Corporation A/S License](https://gith
 
 ## Download  
 Downloads are available via [GitHub Releases](https://github.com/SitecoreSupport/Sitecore.Support.405677/releases).  
+
+[![Total downloads](https://img.shields.io/github/downloads/SitecoreSupport/Sitecore.Support.405677/total.svg)](https://github.com/SitecoreSupport/Sitecore.Support.405677/releases)
