@@ -46,6 +46,7 @@ namespace Sitecore.Support.ContentSearch.SolrProvider.AutoFacIntegration
         {
             var conn = new SolrConnection(SolrContentSearchManager.ServiceAddress)
             {
+                Timeout = Configuration.Settings.ConnectionTimeout,
                 HttpWebRequestFactory = this.container.Resolve<IHttpWebRequestFactory>()
             };
 
@@ -88,7 +89,7 @@ namespace Sitecore.Support.ContentSearch.SolrProvider.AutoFacIntegration
                     }
 
                     ((SolrConnection)args.Instance).HttpWebRequestFactory = args.Context.Resolve<IHttpWebRequestFactory>();
-                });
+                }).WithProperty("Timeout", Configuration.Settings.ConnectionTimeout);
             }
 
             this.container = this.builder.Build();
