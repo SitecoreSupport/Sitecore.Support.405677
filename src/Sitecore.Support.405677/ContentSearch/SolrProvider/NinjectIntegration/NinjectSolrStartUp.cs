@@ -2,7 +2,7 @@
 
 using SolrSchemaParser = Sitecore.ContentSearch.SolrProvider.Parsers.SolrSchemaParser;
 
-namespace Sitecore.ContentSearch.SolrProvider.NinjectIntegration
+namespace Sitecore.Support.ContentSearch.SolrProvider.NinjectIntegration
 {
     using System;
     using System.Collections.Generic;
@@ -21,6 +21,7 @@ namespace Sitecore.ContentSearch.SolrProvider.NinjectIntegration
 
     using SolrNet;
     using SolrNet.Impl;
+    using Sitecore.ContentSearch.SolrProvider;
 
     public class NinjectSolrStartUp : ISolrStartUp
     {
@@ -44,6 +45,7 @@ namespace Sitecore.ContentSearch.SolrProvider.NinjectIntegration
         {
             var conn = new SolrConnection(SolrContentSearchManager.ServiceAddress)
             {
+                Timeout = Configuration.Settings.ConnectionTimeout, // Sitecore.Support.405677
                 HttpWebRequestFactory = this.kernel.Get<IHttpWebRequestFactory>()
             };
 
@@ -86,6 +88,8 @@ namespace Sitecore.ContentSearch.SolrProvider.NinjectIntegration
                     }
 
                     connection.HttpWebRequestFactory = this.kernel.Get<IHttpWebRequestFactory>();
+
+                    connection.Timeout = Configuration.Settings.ConnectionTimeout; // Sitecore.Support.405677
                 }
             }
 

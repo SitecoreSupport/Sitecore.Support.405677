@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="ContentSearch\SolrProvider\Configuration\Settings.cs" />
     <Compile Include="ContentSearch\SolrProvider\NinjectIntegration\NinjectSolrStartUp.cs" />
+    <Compile Include="ContentSearch\SolrProvider\Pipelines\Initialize\NinjectInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
