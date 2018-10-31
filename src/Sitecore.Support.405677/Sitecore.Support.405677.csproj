@@ -48,24 +48,24 @@
       <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Microsoft.Practices.ServiceLocation.8.1.1\lib\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\SC.Microsoft.Practices.ServiceLocation.8.0.3\lib\Microsoft.Practices.ServiceLocation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.ContentSearch.8.1.1\lib\Sitecore.ContentSearch.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch">
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.8.0.3\lib\Sitecore.ContentSearch.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch.SolrProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.ContentSearch.SolrProvider.8.1.1\lib\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch.SolrProvider">
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.SolrProvider.8.0.3\lib\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\SC.Sitecore.Kernel.8.1.1\lib\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Kernel.8.0.3\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="SolrNet, Version=0.4.0.2002, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.SolrNet.8.1.1\lib\SolrNet.dll</HintPath>
+    <Reference Include="SolrNet">
+      <HintPath>..\packages\SC.SolrNet.8.0.3\lib\SolrNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
